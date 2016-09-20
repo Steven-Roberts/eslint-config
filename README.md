@@ -1,5 +1,7 @@
 # ESLint config
 
+[![Build Status](https://travis-ci.org/Steven-Roberts/eslint-config.svg?branch=master)](https://travis-ci.org/Steven-Roberts/eslint-config)
+
 The JavaScript lint configuration used for my projects
 
 ## Install
