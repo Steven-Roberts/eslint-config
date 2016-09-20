@@ -8,7 +8,7 @@ $ npm install --save-dev eslint Steven-Roberts/eslint-config
 ```
 
 ## Usage
-Add the `extends` property to your ESLint config file
+The rules can be extended and overridden as follows
 
 ```json
 {
