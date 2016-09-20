@@ -18,3 +18,8 @@ Add the `extends` property to your ESLint config file
     }
 }
 ```
+
+## Test
+```shell
+$ npm test
+```
