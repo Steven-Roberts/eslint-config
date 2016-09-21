@@ -39,6 +39,28 @@ module.exports = {
                 ClassDeclaration: true
             }
         }],
+        'valid-jsdoc': ['warn', {
+            prefer: {
+                arg: 'param',
+                argument: 'param',
+                constructor: 'class',
+                return: 'returns',
+                virtual: 'abstract'
+            },
+            preferType: {
+                Boolean: 'boolean',
+                Null: 'null',
+                Undefined: 'undefined',
+                Number: 'number',
+                String: 'string',
+                Symbol: 'symbol',
+                Object: 'object'
+            },
+            requireReturn: false,
+            requireReturnType: true,
+            requireParamDescription: true,
+            requireReturnDescription: true
+        }],
         'newline-before-return': 'off',
         'id-length': 'off'
     }
