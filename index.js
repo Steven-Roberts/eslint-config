@@ -19,7 +19,7 @@ module.exports = {
         'quote-props': ['error', 'consistent-as-needed'],
         'padded-blocks': ['error', {
             blocks: 'never',
-            classes: 'never',
+            classes: 'always',
             switches: 'never'
         }],
         'quotes': ['error', 'single'],
