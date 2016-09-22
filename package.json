@@ -2,21 +2,15 @@
     "name": "eslint-config-steven-roberts",
     "version": "1.0.0",
     "description": "A shareable config for ESLint",
+    "main": "index.js",
+    "author": "Steven Roberts (https://steven-roberts.github.io/)",
+    "homepage": "https://github.com/Steven-Roberts/eslint-config",
+    "repository": "Steven-Roberts/eslint-config",
+    "license": "MIT",
     "keywords": [
         "eslint",
         "eslintconfig"
     ],
-    "homepage": "https://github.com/Steven-Roberts/eslint-config",
-    "author": {
-        "name": "Steven Roberts",
-        "url": "https://steven-roberts.github.io/"
-    },
-    "repository": {
-        "type": "git",
-        "url": "Steven-Roberts/eslint-config"
-    },
-    "license": "MIT",
-    "main": "index.js",
     "peerDependencies": {
         "eslint": ">= 3"
     },
@@ -25,5 +19,8 @@
     },
     "engines": {
         "node": ">=4.3.2"
-    }
+    },
+    "files": [
+        "index.js"
+    ]
 }
