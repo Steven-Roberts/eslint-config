@@ -32,6 +32,7 @@ module.exports = {
         'space-before-function-paren': ['error', 'never'],
         'func-style': 'off',
         'max-params': 'off',
+        'no-sync': 'warn',
         'require-jsdoc': ['warn', {
             require: {
                 FunctionDeclaration: true,
