@@ -8,7 +8,7 @@ module.exports = {
         'no-constant-condition': 'warn',
         'no-debugger': 'warn',
         'no-empty': 'warn',
-        'no-template-curly-in-string': 'warn',
+        'no-unused-vars': 'warn',
         'no-unreachable': 'warn',
         'dot-location': ['error', 'property'],
         'no-alert': 'warn',
