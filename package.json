@@ -11,16 +11,16 @@
         "eslint",
         "eslintconfig"
     ],
-    "peerDependencies": {
-        "eslint": ">= 3"
-    },
     "scripts": {
         "test": "eslint -c index.js --env node ."
     },
-    "engines": {
-        "node": ">=4.3.2"
-    },
     "files": [
         "index.js"
-    ]
+    ],
+    "peerDependencies": {
+        "eslint": ">= 3"
+    },
+    "devDependencies": {
+        "eslint": "^3.8.0"
+    }
 }
