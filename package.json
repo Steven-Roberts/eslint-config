@@ -12,7 +12,7 @@
         "eslintconfig"
     ],
     "scripts": {
-        "test": "david && eslint -c index.js --env node ."
+        "test": "npm-check && eslint -c index.js --env node ."
     },
     "files": [
         "index.js"
@@ -21,7 +21,7 @@
         "eslint": ">= 3"
     },
     "devDependencies": {
-        "david": "^9.0.0",
-        "eslint": "^3.8.0"
+        "npm-check": "*",
+        "eslint": "*"
     }
 }
