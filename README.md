@@ -8,11 +8,13 @@
 The JavaScript lint configuration used for my projects
 
 ## Install
+
 ```shell
-$ npm install --save-dev eslint Steven-Roberts/eslint-config
+npm install --save-dev eslint Steven-Roberts/eslint-config
 ```
 
 ## Usage
+
 The rules can be extended and overridden as follows
 
 ```json
@@ -25,6 +27,7 @@ The rules can be extended and overridden as follows
 ```
 
 ## Test
+
 ```shell
-$ npm test
+npm test
 ```
