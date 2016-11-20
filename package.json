@@ -1,30 +1,29 @@
 {
-    "name": "eslint-config-steven-roberts",
-    "version": "2.0.0",
-    "description": "A shareable config for ESLint",
-    "main": "index.js",
-    "author": "Steven Roberts (https://steven-roberts.github.io/)",
-    "homepage": "https://github.com/Steven-Roberts/eslint-config",
-    "repository": "Steven-Roberts/eslint-config",
-    "bugs": {
-        "url": "https://github.com/Steven-Roberts/eslint-config/issues"
-    },
-    "license": "MIT",
-    "keywords": [
-        "eslint",
-        "eslintconfig"
-    ],
-    "scripts": {
-        "test": "npm-check && eslint -c index.js --env node ."
-    },
-    "files": [
-        "index.js"
-    ],
-    "peerDependencies": {
-        "eslint": ">= 3"
-    },
-    "devDependencies": {
-        "npm-check": "*",
-        "eslint": "*"
-    }
+  "name": "eslint-config-steven-roberts",
+  "version": "2.0.0",
+  "description": "A shareable config for ESLint",
+  "main": "index.js",
+  "author": "Steven Roberts (https://steven-roberts.github.io/)",
+  "homepage": "https://github.com/Steven-Roberts/eslint-config",
+  "repository": "Steven-Roberts/eslint-config",
+  "bugs": {
+    "url": "https://github.com/Steven-Roberts/eslint-config/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "test": "eslint -c index.js --env node ."
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2"
+  }
 }
