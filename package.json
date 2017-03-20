@@ -15,7 +15,9 @@
     "eslintconfig"
   ],
   "scripts": {
-    "test": "eslint -c index.js --env node ."
+    "examples": "eslint -c index.js --env node test/*",
+    "lint": "eslint -c index.js --env node .",
+    "test": "npm run examples && npm run lint"
   },
   "files": [
     "index.js"
@@ -24,6 +26,6 @@
     "eslint": ">= 3"
   },
   "devDependencies": {
-    "eslint": "^3.10.2"
+    "eslint": "^3.18.0"
   }
 }
