@@ -53,5 +53,10 @@ if (a > Math.PI) {
 }
 
 module.exports = {
-    person
+    person,
+    load: async (file) => {
+        const data = await logger.cache(file);
+
+        return data.length;
+    }
 };

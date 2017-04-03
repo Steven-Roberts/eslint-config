@@ -2,7 +2,7 @@
 
 module.exports = {
     parserOptions: {
-        ecmaVersion: 7
+        ecmaVersion: 8
     },
     // Enable all rules by default
     extends: 'eslint:all',
@@ -44,11 +44,7 @@ module.exports = {
         }],
         quotes: ['error', 'single'],
         'one-var': ['error', 'never'],
-        'space-before-function-paren': ['error', {
-            anonymous: 'always',
-            named: 'always',
-            asyncArrow: 'never'
-        }],
+        'space-before-function-paren': ['error', 'always'],
         'require-jsdoc': ['error', {
             require: {
                 FunctionDeclaration: true,
