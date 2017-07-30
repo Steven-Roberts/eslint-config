@@ -46,7 +46,8 @@ person.setAge(a);
 if (a > Math.PI) {
     const obj = {
         a: 'hi',
-        b: [Math.E, Math.cos(1), null]
+        b: [Math.E, Math.cos(1), null],
+        c: (x) => x ** x
     };
 
     logger.log(obj);
