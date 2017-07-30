@@ -47,7 +47,11 @@ if (a > Math.PI) {
     const obj = {
         a: 'hi',
         b: [Math.E, Math.cos(1), null],
-        c: (x) => x ** x
+        c: (x) => x ** x,
+        d: {
+            d1: 'abc',
+            d2: []
+        }
     };
 
     logger.log(obj);
@@ -59,5 +63,14 @@ module.exports = {
         const data = await logger.cache(file);
 
         return data.length;
+    },
+    foo: (obj) => {
+        const {first, second} = obj;
+
+        if (first > second) {
+            return [...first, ...second];
+        }
+
+        return [...second, ...first];
     }
 };

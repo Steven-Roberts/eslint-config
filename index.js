@@ -11,18 +11,6 @@ module.exports = {
         /* Disabled Rules
          * These rules are not important
          */
-        'array-bracket-newline': [
-            'error',
-            {
-                multiline: true
-            }
-        ],
-        'array-element-newline': [
-            'error',
-            {
-                multiline: true
-            }
-        ],
         'id-length': 'off',
         'linebreak-style': 'off',
         'max-params': 'off',
@@ -40,11 +28,30 @@ module.exports = {
         /* Modified Errors
          * These rules are tweaks of the default ESLint behavior
          */
+        'array-bracket-newline': [
+            'error',
+            {
+                multiline: true
+            }
+        ],
+        'array-element-newline': [
+            'error',
+            {
+                multiline: true
+            }
+        ],
         'object-curly-newline': [
             'error',
             {
-                multiline: true,
-                minProperties: 1
+                ObjectExpression: {
+                    multiline: true,
+                    minProperties: 1,
+                    consistent: true
+                },
+                ObjectPattern: {
+                    multiline: true,
+                    consistent: true
+                }
             }
         ],
         'no-magic-numbers': [
