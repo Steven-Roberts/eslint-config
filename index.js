@@ -11,6 +11,7 @@ module.exports = {
         /* Disabled Rules
          * These rules are not important
          */
+        'array-element-newline': 'off',
         'id-length': 'off',
         'linebreak-style': 'off',
         'max-params': 'off',
@@ -29,12 +30,6 @@ module.exports = {
          * These rules are tweaks of the default ESLint behavior
          */
         'array-bracket-newline': [
-            'error',
-            {
-                multiline: true
-            }
-        ],
-        'array-element-newline': [
             'error',
             {
                 multiline: true

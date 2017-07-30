@@ -50,7 +50,10 @@ if (a > Math.PI) {
         c: (x) => x ** x,
         d: {
             d1: 'abc',
-            d2: []
+            d2: [
+                'some text',
+                'more text'
+            ]
         }
     };
 
