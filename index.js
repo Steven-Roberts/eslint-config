@@ -35,6 +35,8 @@ module.exports = {
                 multiline: true
             }
         ],
+        'dot-location': ['error', 'property'],
+        'function-paren-newline': ['error', 'consistent'],
         'object-curly-newline': [
             'error',
             {
@@ -55,7 +57,6 @@ module.exports = {
                 ignore: [0, 1]
             }
         ],
-        'dot-location': ['error', 'property'],
         'quote-props': ['error', 'as-needed'],
         'padded-blocks': [
             'error',
