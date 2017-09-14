@@ -75,5 +75,15 @@ module.exports = {
         }
 
         return [...second, ...first];
+    },
+    abc: (n) => {
+        let q = 0;
+        for (let i = 1; i < n; i++) {
+            if (i > Math.E) {
+                q *= i;
+            }
+        }
+
+        return q % n;
     }
 };

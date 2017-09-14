@@ -57,6 +57,12 @@ module.exports = {
                 ignore: [0, 1]
             }
         ],
+        'no-plusplus': [
+            'error',
+            {
+                allowForLoopAfterthoughts: true
+            }
+        ],
         'quote-props': ['error', 'as-needed'],
         'padded-blocks': [
             'error',
