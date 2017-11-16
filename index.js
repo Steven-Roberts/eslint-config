@@ -17,6 +17,7 @@ module.exports = {
         'linebreak-style': 'off',
         'max-params': 'off',
         'max-statements': 'off',
+        'no-plusplus': 'off',
         'no-ternary': 'off',
         'sort-keys': 'off',
         'sort-vars': 'off',
@@ -60,12 +61,6 @@ module.exports = {
             {
                 ignore: [0, 1],
                 enforceConst: true
-            }
-        ],
-        'no-plusplus': [
-            'error',
-            {
-                allowForLoopAfterthoughts: true
             }
         ],
         'object-curly-newline': [
