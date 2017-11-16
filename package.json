@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-steven-roberts",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A shareable config for ESLint",
   "main": "index.js",
   "author": "Steven Roberts (https://steven-roberts.github.io/)",
@@ -26,6 +26,6 @@
     "eslint": ">= 4"
   },
   "devDependencies": {
-    "eslint": "^4.6.1"
+    "eslint": "^4.11.0"
   }
 }

@@ -8,7 +8,8 @@ module.exports = {
     extends: 'eslint:all',
     rules: {
 
-        /* Disabled Rules
+        /*
+         * Disabled Rules
          * These rules are not important
          */
         'array-element-newline': 'off',
@@ -20,13 +21,15 @@ module.exports = {
         'sort-keys': 'off',
         'sort-vars': 'off',
 
-        /* Warnings
+        /*
+         * Warnings
          * The rules are for code that probably should be fixed, but is still
          * acceptable in a production setting
          */
         'no-warning-comments': 'warn',
 
-        /* Modified Errors
+        /*
+         * Modified Errors
          * These rules are tweaks of the default ESLint behavior
          */
         'array-bracket-newline': [
@@ -37,6 +40,34 @@ module.exports = {
         ],
         'dot-location': ['error', 'property'],
         'function-paren-newline': ['error', 'consistent'],
+        'multiline-ternary': ['error', 'always-multiline'],
+        'no-confusing-arrow': [
+            'error',
+            {
+                allowParens: true
+            }
+        ],
+        'no-extra-parens': [
+            'error',
+            'all',
+            {
+                nestedBinaryExpressions: false,
+                enforceForArrowConditionals: false
+            }
+        ],
+        'no-magic-numbers': [
+            'error',
+            {
+                ignore: [0, 1],
+                enforceConst: true
+            }
+        ],
+        'no-plusplus': [
+            'error',
+            {
+                allowForLoopAfterthoughts: true
+            }
+        ],
         'object-curly-newline': [
             'error',
             {
@@ -51,19 +82,7 @@ module.exports = {
                 }
             }
         ],
-        'no-magic-numbers': [
-            'error',
-            {
-                ignore: [0, 1]
-            }
-        ],
-        'no-plusplus': [
-            'error',
-            {
-                allowForLoopAfterthoughts: true
-            }
-        ],
-        'quote-props': ['error', 'as-needed'],
+        'one-var': ['error', 'never'],
         'padded-blocks': [
             'error',
             {
@@ -72,9 +91,8 @@ module.exports = {
                 switches: 'never'
             }
         ],
+        'quote-props': ['error', 'as-needed'],
         quotes: ['error', 'single'],
-        'one-var': ['error', 'never'],
-        'space-before-function-paren': ['error', 'always'],
         'require-jsdoc': [
             'error',
             {
@@ -85,6 +103,7 @@ module.exports = {
                 }
             }
         ],
+        'space-before-function-paren': ['error', 'always'],
         'valid-jsdoc': [
             'error',
             {

@@ -54,7 +54,9 @@ if (a > Math.PI) {
                 'some text',
                 'more text'
             ]
-        }
+        },
+        e: (q) => (q > Math.exp(q) ? {} : []),
+        f: (x, y, z) => x || (y && (x || z))
     };
 
     logger.log(obj);
@@ -67,11 +69,11 @@ module.exports = {
 
         return data.length;
     },
-    foo: (obj) => {
+    foo: (obj, ...stuff) => {
         const {first, second} = obj;
 
         if (first > second) {
-            return [...first, ...second];
+            return [...first, ...second, ...stuff];
         }
 
         return [...second, ...first];
