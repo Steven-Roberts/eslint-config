@@ -3,9 +3,9 @@
 [![Build Status](https://travis-ci.org/Steven-Roberts/eslint-config.svg?branch=master)](https://travis-ci.org/Steven-Roberts/eslint-config)
 [![devDependencies Status](https://david-dm.org/Steven-Roberts/eslint-config/dev-status.svg)](https://david-dm.org/Steven-Roberts/eslint-config?type=dev)
 [![peerDependencies Status](https://david-dm.org/Steven-Roberts/eslint-config/peer-status.svg)](https://david-dm.org/Steven-Roberts/eslint-config?type=peer)
-[![Code Climate](https://codeclimate.com/github/Steven-Roberts/eslint-config/badges/gpa.svg)](https://codeclimate.com/github/Steven-Roberts/eslint-config)
+[![Maintainability](https://api.codeclimate.com/v1/badges/9ced61028fa7804fa969/maintainability)](https://codeclimate.com/github/Steven-Roberts/gulp-chrome-manifest-iconify/maintainability)
 
-The [ESlint](http://eslint.org/) configuration used for my projects
+The [ESlint](https://eslint.org/) configuration used for my projects
 
 ## Install
 
