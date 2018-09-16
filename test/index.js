@@ -13,7 +13,18 @@ class Person {
      * @param {string} lastName - The last name of the person
      */
     constructor (firstName, lastName) {
+        /**
+         * The first name
+         * @readonly
+         * @type {string}
+         */
         this.firstName = firstName;
+
+        /**
+         * The last name
+         * @readonly
+         * @type {string}
+         */
         this.lastName = lastName;
     }
 
@@ -63,7 +74,10 @@ if (a > Math.PI) {
 }
 
 module.exports = {
+    // Shorthand syntax for object literal
     person,
+
+    // This is an async function!
     load: async (file) => {
         const data = await logger.cache(file);
 

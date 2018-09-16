@@ -41,6 +41,15 @@ module.exports = {
         ],
         'dot-location': ['error', 'property'],
         'function-paren-newline': ['error', 'consistent'],
+        'lines-around-comment': [
+            'error',
+            {
+                allowBlockStart: true,
+                allowObjectStart: true,
+                allowArrayStart: true,
+                allowClassStart: true
+            }
+        ],
         'multiline-ternary': ['error', 'always-multiline'],
         'no-confusing-arrow': [
             'error',
