@@ -40,6 +40,7 @@ module.exports = {
             }
         ],
         'dot-location': ['error', 'property'],
+        'function-call-argument-newline': ['error', 'consistent'],
         'function-paren-newline': ['error', 'consistent'],
         'lines-around-comment': [
             'error',
